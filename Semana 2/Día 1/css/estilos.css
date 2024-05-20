@@ -1,0 +1,88 @@
+
+/*
+    1. id
+    2. clase
+    3. elemento
+*/
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #4F545F;
+    margin: 0;
+}
+
+h1{
+    background-color: #55B3C5;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    /*
+    padding-left: 100px;
+    padding: 20px 100px;
+    padding: 10px 20px 30px 40px;
+    */
+}
+
+fieldset{
+    border: 2px dashed #DDDDDD;
+    margin: 20px;
+    padding: 20px;
+    /*
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #DDDDDD;
+    */
+}
+
+legend{
+    font-weight: bold;
+}
+
+.formElement{
+    width: 300px;
+    padding: 6px;
+    margin-bottom: 15px;
+}
+
+#information, footer{
+    border: 1px solid #6278B0;
+    padding: 20px 40px;
+    display: block;
+    background-color: #CCE9F8;
+    text-align: center;
+    margin: 15px;
+}
+
+.submissionButtons{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #D9534F;
+    color: white;
+    border-radius: 5px;
+}
+
+.special{
+    background-color: #56C56F;
+}
+
+.submissionButtons:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+/*
+Seleccionar elementos hijos inmediatos
+fieldset > div{
+    border: 1px solid black;
+}
+
+Seleccionar todos los elementos dentro del selector
+fieldset div{
+    border: 1px solid black;
+}
+
+.menu > li{
+    color: blue;
+}
+*/
