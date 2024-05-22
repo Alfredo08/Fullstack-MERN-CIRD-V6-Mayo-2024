@@ -1,0 +1,39 @@
+
+nav, div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    /* align-items: flex-start; */
+    /* height: 200px; */
+    /* flex-wrap: wrap; */
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.izquierda{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.derecha{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.derecha > div{
+    flex: 1;
+}
