@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> API's y AJAX </title>
+        <link href="./css/estilos.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1> API de perritos </h1>
+        <form onsubmit="obtenerImagenes(event)">
+            <div>
+                <label for="num-imagenes">
+                    Número de imágenes: 
+                </label>
+                <input type="number" id="num-imagenes" name="num-imagenes">
+            </div>
+            <button>
+                Obtener
+            </button>
+        </form>
+        <div class="resultados"></div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
