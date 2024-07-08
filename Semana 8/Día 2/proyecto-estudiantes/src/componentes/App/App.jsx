@@ -1,9 +1,9 @@
 import { useState } from "react";
 import ListaEstudiantes from "../ListaEstudiantes/ListaEstudiantes";
-import FormularioEstudiante from "../FormularioEstudiante/FormularioEstudiante";
 import { Route, Routes, Link } from "react-router-dom";
 import Estudiante from "../Estudiante/Estudiante";
 import Error from "../Error/Error";
+import FormularioEstudiante from './../FormularioEstudiante/FormularioEstudiante';
 
 const App = () => {
   const estudiantesIniciales = [{
